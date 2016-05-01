@@ -105,7 +105,7 @@ def read_expression(expr_text):
 
 
 def read_input():
-    with codecs.open('../input.txt') as f:
+    with codecs.open('../inputb.txt') as f:
         for line in f:
             line = line.strip()
             if not line.startswith('#'):
